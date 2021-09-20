@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .clearfix{
   content:"";
   display: table;
@@ -24,6 +28,19 @@
 img{
   height: 300px;
   width: 200px;
+  position: absolute;
+}
+
+.second{
+  visibility: hidden;
+}
+
+.image:hover{
+  cursor: pointer;
+}
+
+.image:hover .second{
+  visibility: visible;
 }
 
 .content{
@@ -39,12 +56,19 @@ img{
 .name{
   text-transform: uppercase;
   font-size: 8px;
+  font-weight: 800;
 }
 
 .cost{
   font-size: 7px;
-  color: rgb(211, 2, 2);
-  font-weight: bold;
+  color: #FF0000;
+  font-weight: 800;
+}
+
+.discount{ 
+  color: black;
+  font-weight: 700;
+  text-decoration: line-through;
 }
 
 .heart{
@@ -59,23 +83,22 @@ img{
   position: absolute;
   bottom: 10px;
   left: 0;
-  background-color: red;
+  background-color: #EB0037;
   color: white;
-  font-size: 10px;
+  font-size: 7px;
   font-weight: bold;
-  width: 30px;
+  width: 25px;
   padding: 3px;
 }
 
 .green{
   position: absolute;
   bottom: 10px;
-  left: 30px;
-  margin-left: 2px;
-  background-color: green;
+  left: 28px;
+  background-color: #00875A;
   color: white;
-  font-size: 10px;
+  font-size: 7px;
   font-weight: bold;
-  width: 60px;
+  width: 50px;
   padding: 3px 4px;
 }
