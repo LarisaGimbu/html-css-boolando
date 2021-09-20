@@ -1,3 +1,4 @@
+/***** GENERAL  *****/
 *{
   margin: 0;
   padding: 0;
@@ -14,11 +15,27 @@ body{
   clear: both;
 }
 
+/* utility */
 .container{
   width: 50%;
   margin: 0 auto;
 }
 
+.content{
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+.heart{
+  position: absolute;
+  top: 7px;
+  right: 0;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+/* images */
 .image{
   height: 300px;
   width: 200px;
@@ -42,12 +59,9 @@ img{
 .image:hover .second{
   visibility: visible;
 }
+/* /images */
 
-.content{
-  display: inline-block;
-  margin-left: 5px;
-}
-
+/* description */
 .brand{
   font-size: 7px;
   margin-top: 7px;
@@ -70,14 +84,7 @@ img{
   font-weight: 700;
   text-decoration: line-through;
 }
-
-.heart{
-  position: absolute;
-  top: 7px;
-  right: 0;
-  background-color: white;
-  padding: 5px 10px;
-}
+/* /description */
 
 .fifty-discount{
   position: absolute;
@@ -101,4 +108,10 @@ img{
   font-weight: bold;
   width: 50px;
   padding: 3px 4px;
+}
+
+.last-green{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
 }
