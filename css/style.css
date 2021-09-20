@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.image{
+  height: 300px;
+  width: 200px;
+  position: relative;
+}
+
+img{
+  height: 300px;
+  width: 200px;
+}
+
+.content{
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.brand{
+  font-size: 7px;
+  margin-top: 7px;
+}
+
+.name{
+  text-transform: uppercase;
+  font-size: 8px;
+}
+
+.cost{
+  font-size: 7px;
+  color: rgb(211, 2, 2);
+  font-weight: bold;
+}
+
+.heart{
+  position: absolute;
+  top: 7px;
+  right: 0;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.fifty-discount{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  width: 30px;
+  padding: 3px;
+}
+
+.green{
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  margin-left: 2px;
+  background-color: green;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  width: 60px;
+  padding: 3px 4px;
+}
